@@ -30,6 +30,7 @@
 + (NSArray *) MR_propertiesNamed:(NSArray *)properties;
 
 + (id) MR_createEntity;
++ (id) MR_createEntityInContext:(NSManagedObjectContext *);
 + (id) MR_createInContext:(NSManagedObjectContext *)context;
 - (BOOL) MR_deleteEntity;
 - (BOOL) MR_deleteInContext:(NSManagedObjectContext *)context;
